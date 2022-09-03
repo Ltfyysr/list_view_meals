@@ -59,7 +59,7 @@ class _AnasayfaState extends State<Anasayfa> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Yemekler"),
-        backgroundColor: Colors.orange,
+        backgroundColor: Colors.deepPurple,
       ),
       body: FutureBuilder<List<Yemekler>>(
         future: yemekleriGetir(),
@@ -88,7 +88,7 @@ class _AnasayfaState extends State<Anasayfa> {
                           SizedBox(
                             height: 50,
                           ),
-                          Text("${yemek.yemekFiyat} ₺",style: TextStyle(fontSize: 20,color: Colors.blue),)
+                          Text("${yemek.yemekFiyat} ₺",style: TextStyle(fontSize: 20,color: Colors.purpleAccent),)
                         ],
                       ),
                     Spacer(),
